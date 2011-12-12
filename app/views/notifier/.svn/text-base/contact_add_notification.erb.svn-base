@@ -1,9 +1,0 @@
-<%= @contacter.username %> has added you as a contact.
-To see their profile just click the link below:
-
-<%= @contact_url %>
-
-If the above URL does not work try copying and pasting it into your browser.
-If you continue to have problem please feel free to contact us.
-
-Please note: You can turn these emails off in the settings panel in LifeMasher

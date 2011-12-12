@@ -1,9 +1,0 @@
-<h2><%= link_to "(+)", new_life_project_path(@life) if @life %>Project</h2>
-<ul>
-  <%= !@project ? '<li class="selected">' : "<li>"%>
-    <%= @life && !@life.new_record? ? link_to( "All", life_tasks_path(@life) ) : link_to( "All", tasks_path ) %>
-  </li>
-  <%- for project in current_projects -%>
-    <%= @project == project ? '<li class="selected">' : "<li>"%><%= link_to project.name, project_tasks_path(project) %></li>
-  <%- end -%>
-</ul>
