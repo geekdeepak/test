@@ -1,0 +1,42 @@
+<%= f.error_messages %>
+
+<p>
+  <%= f.label :username %>
+  <%= f.text_field :username %>
+</p>
+
+<p>
+  <%= f.label :password, f.object.new_record? ? nil : "Change password" %>
+  <%= f.password_field :password %>
+</p>
+
+<p>
+  <%= f.label :password_confirmation %>
+  <%= f.password_field :password_confirmation %>
+</p>
+
+<p>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+</p>
+
+<p>
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %>
+</p>
+
+<p>
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+</p>
+
+<% if !@user.new_record? %>
+  <p>
+    <%= f.time_zone_select :timezone, ActiveSupport::TimeZone.all %>
+  </p>
+
+  <p>
+    <%= f.label :receive_emails %>
+    <%= f.check_box :receive_emails %>
+  </p>
+<% end %>

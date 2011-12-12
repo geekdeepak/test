@@ -1,0 +1,11 @@
+<% @page_header = "Goals"%>
+
+<% form_for @project, :url => { :action => "add_to_life", :id => @project.id } do |f| %>
+  <p>
+    <%= f.label :life %>
+    <%= select("life", "id", @current_user.lives.each.collect {|p| [ p.name, p.id ] }, {:prompt => 'Select Life'}) %>
+  </p>
+  <p>
+  <%= submit_tag 'Save' %>
+  </p>
+<% end %>

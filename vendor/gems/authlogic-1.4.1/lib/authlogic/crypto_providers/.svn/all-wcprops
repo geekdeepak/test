@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/crypto_providers
+END
+bcrypt.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/crypto_providers/bcrypt.rb
+END
+sha512.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/crypto_providers/sha512.rb
+END
+aes256.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/crypto_providers/aes256.rb
+END
+sha1.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/crypto_providers/sha1.rb
+END

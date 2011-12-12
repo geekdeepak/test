@@ -1,0 +1,12 @@
+You have been assigned a new task.
+To see details of your task just click the link below:
+
+<%= @task_url %>
+
+Name: <%= @task.name %>
+Due: <%= @task.due %>
+
+If the above URL does not work try copying and pasting it into your browser.
+If you continue to have problem please feel free to contact us.
+
+Please note: You can turn these emails off in the settings panel in LifeMasher

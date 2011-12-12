@@ -1,0 +1,16 @@
+<p><%=h @life.description %></p>
+
+<div class="task_head">
+  <span class="name">Action</span>
+  <span class="when">When</span>
+  <span class="duration">Duration</span>
+</div>
+
+<%= render :partial => 'tasks/task', :collection => @tasks %>
+
+<p>
+  <%= link_to( 'Add Goal', new_life_project_path(@life) )+ " |" %>
+  <%= link_to( 'Add Step', new_life_task_path(@life) ) + " |" %>
+  <%= link_to 'Add to Calendar', formatted_tasks_path(:ics) %><br />
+  <small>Supported by iCal, Outlook, and most major calendar apps.</small>
+</p>

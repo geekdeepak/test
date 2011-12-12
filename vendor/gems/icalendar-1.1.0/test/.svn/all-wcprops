@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test
+END
+interactive.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/interactive.rb
+END
+parameter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/parameter_test.rb
+END
+component_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/component_test.rb
+END
+read_write.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/read_write.rb
+END
+conversions_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/conversions_test.rb
+END
+calendar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/calendar_test.rb
+END
+parser_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/test/parser_test.rb
+END

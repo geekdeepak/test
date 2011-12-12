@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract
+END
+connection_specification.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb
+END
+quoting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/quoting.rb
+END
+schema_statements.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/schema_statements.rb
+END
+connection_pool.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb
+END
+query_cache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb
+END
+database_statements.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/database_statements.rb
+END
+schema_definitions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jvintel/!svn/ver/1/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/schema_definitions.rb
+END

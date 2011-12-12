@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/jvintel/!svn/ver/1/test/fixtures
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/jvintel/!svn/ver/1/test/fixtures/users.yml
+END
+lives.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/jvintel/!svn/ver/1/test/fixtures/lives.yml
+END
+notifiers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/test/fixtures/notifiers.yml
+END
+profiles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/jvintel/!svn/ver/1/test/fixtures/profiles.yml
+END
+tasks.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/jvintel/!svn/ver/1/test/fixtures/tasks.yml
+END
+messages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/jvintel/!svn/ver/1/test/fixtures/messages.yml
+END
+projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/jvintel/!svn/ver/1/test/fixtures/projects.yml
+END
+contacts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/jvintel/!svn/ver/1/test/fixtures/contacts.yml
+END

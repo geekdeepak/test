@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext
+END
+bcrypt.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/bcrypt.c
+END
+bcrypt_ext.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/bcrypt_ext.c
+END
+extconf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/extconf.rb
+END
+blf.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/blf.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/Makefile
+END
+blowfish.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/jvintel/!svn/ver/1/vendor/gems/bcrypt-ruby-2.0.3/ext/blowfish.c
+END

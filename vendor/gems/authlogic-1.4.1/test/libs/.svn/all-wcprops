@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs
+END
+mock_cookie_jar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs/mock_cookie_jar.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs/user.rb
+END
+mock_request.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs/mock_request.rb
+END
+ordered_hash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs/ordered_hash.rb
+END
+mock_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/libs/mock_controller.rb
+END

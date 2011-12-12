@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/jvintel/!svn/ver/0/
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/jvintel/!svn/ver/1/test.rb
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/jvintel/!svn/ver/1/Rakefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/jvintel/!svn/ver/1/README
+END

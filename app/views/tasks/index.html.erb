@@ -1,0 +1,41 @@
+
+<% if @project %>
+
+  <h2>
+    <%=h @project.name %>
+    <small> |
+      <%= link_to 'Edit', edit_project_path(@project) %> | 
+      <%= delete_item_link("projects", @project) %>
+    </small>
+  </h2>
+
+  <p><%=h @project.description %></p>
+  
+<% elsif @life %>
+
+  <p><%=h @life.description %></p>
+  
+<% end %>
+
+<span><center><b>NOTE: Use Drag-n-Drop to arrange the tasks.</b></center></span>
+
+<ul style="list-style: none;">
+<li>
+<div class="task_head">
+  <span class="name">To-do-list</span>
+  <span class="when">When</span>
+  <span class="duration">Duration</span>
+</div>
+</li>
+</ul>
+
+<ul id="test-list" style="list-style: none;">
+<%= render :partial => 'task', :collection => @tasks %>
+</ul>
+<p>
+  <%= link_to( 'Add Project', new_life_project_path(@life) )+ " |" if @life %>
+  <%= link_to( 'Add Step', new_project_task_path(@project) ) + " |" if @project %>
+  <%= link_to( 'Add Step', new_life_task_path(@life) ) + " |" if @life && !@life.projects.empty? && !@project %>
+  <%= link_to 'Add to Calendar', formatted_tasks_path(:ics) %><br />
+  <small>Supported by iCal, Outlook, and most major calendar apps.</small>  
+</p>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/jvintel/!svn/ver/1/test/functional
+END
+contacts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/jvintel/!svn/ver/1/test/functional/contacts_controller_test.rb
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/jvintel/!svn/ver/1/test/functional/users_controller_test.rb
+END
+lives_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/jvintel/!svn/ver/1/test/functional/lives_controller_test.rb
+END
+profiles_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/jvintel/!svn/ver/1/test/functional/profiles_controller_test.rb
+END
+activations_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/test/functional/activations_controller_test.rb
+END
+user_sessions_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/jvintel/!svn/ver/1/test/functional/user_sessions_controller_test.rb
+END
+tasks_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/jvintel/!svn/ver/1/test/functional/tasks_controller_test.rb
+END
+messages_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/jvintel/!svn/ver/1/test/functional/messages_controller_test.rb
+END
+password_resets_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/jvintel/!svn/ver/1/test/functional/password_resets_controller_test.rb
+END
+projects_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/jvintel/!svn/ver/1/test/functional/projects_controller_test.rb
+END

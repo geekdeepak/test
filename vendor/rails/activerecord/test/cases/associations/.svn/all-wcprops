@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations
+END
+has_many_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/has_many_through_associations_test.rb
+END
+has_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/has_many_associations_test.rb
+END
+join_model_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/join_model_test.rb
+END
+callbacks_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/callbacks_test.rb
+END
+eager_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/eager_test.rb
+END
+eager_singularization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/eager_singularization_test.rb
+END
+inner_join_association_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/inner_join_association_test.rb
+END
+eager_load_nested_include_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/eager_load_nested_include_test.rb
+END
+cascaded_eager_loading_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/cascaded_eager_loading_test.rb
+END
+has_one_through_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/has_one_through_associations_test.rb
+END
+has_one_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/has_one_associations_test.rb
+END
+eager_load_includes_full_sti_class_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/eager_load_includes_full_sti_class_test.rb
+END
+belongs_to_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/belongs_to_associations_test.rb
+END
+has_and_belongs_to_many_associations_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/has_and_belongs_to_many_associations_test.rb
+END
+extension_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/cases/associations/extension_test.rb
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/jvintel/!svn/ver/1/app/views/layouts
+END
+_projects.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/jvintel/!svn/ver/1/app/views/layouts/_projects.html.erb
+END
+master.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/views/layouts/master.html.erb
+END
+_users.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/views/layouts/_users.html.erb
+END
+_lives.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/views/layouts/_lives.html.erb
+END

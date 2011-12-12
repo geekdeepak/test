@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1
+END
+authlogic.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/authlogic.gemspec
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/README.rdoc
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/init.rb
+END
+Manifest
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/Manifest
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/MIT-LICENSE
+END
+CHANGELOG.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/CHANGELOG.rdoc
+END
+.specification
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/.specification
+END

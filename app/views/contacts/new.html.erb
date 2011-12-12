@@ -1,0 +1,9 @@
+<% @page_header = "Contacts"%>
+
+<% form_tag :controller => "contacts", :action => "create" do |f| %>
+
+  <%= label_tag :name %>
+  <%= select ("user", "id", @users.map {|u| [u.name,u.id]}) %>
+  
+  <p><%= submit_tag 'Invite' %></p>
+<% end %>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/jvintel/!svn/ver/1/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/jvintel/!svn/ver/1/test/unit/user_test.rb
+END
+life_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/jvintel/!svn/ver/1/test/unit/life_test.rb
+END
+profile_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/jvintel/!svn/ver/1/test/unit/profile_test.rb
+END
+relationship_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/test/unit/relationship_test.rb
+END
+task_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/jvintel/!svn/ver/1/test/unit/task_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/jvintel/!svn/ver/1/test/unit/message_test.rb
+END
+project_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/jvintel/!svn/ver/1/test/unit/project_test.rb
+END

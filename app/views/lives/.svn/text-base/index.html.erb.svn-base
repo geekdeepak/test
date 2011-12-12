@@ -1,0 +1,11 @@
+<h2>All Lives</h2>
+
+<div class="task_head">
+  <span class="name">Action</span>
+  <span class="when">When</span>
+  <span class="duration">Duration</span>
+</div>
+
+<%= render :partial => 'tasks/task', :collection => @tasks %>
+
+<p><%= link_to 'New Life', new_life_path %></p>

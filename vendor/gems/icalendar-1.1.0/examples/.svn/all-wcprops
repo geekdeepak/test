@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/examples
+END
+single_event.ics
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/examples/single_event.ics
+END
+create_cal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/examples/create_cal.rb
+END
+parse_cal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/examples/parse_cal.rb
+END

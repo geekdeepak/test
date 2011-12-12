@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/jvintel/!svn/ver/1/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/jvintel/!svn/ver/1/config/initializers/inflections.rb
+END
+hoptoad.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/config/initializers/hoptoad.rb
+END
+mail.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/config/initializers/mail.rb
+END
+mail.rb.sample
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/jvintel/!svn/ver/1/config/initializers/mail.rb.sample
+END
+tfn.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/jvintel/!svn/ver/1/config/initializers/tfn.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/jvintel/!svn/ver/1/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/config/initializers/mime_types.rb
+END

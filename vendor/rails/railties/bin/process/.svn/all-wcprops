@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/vendor/rails/railties/bin/process
+END
+spawner
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/jvintel/!svn/ver/1/vendor/rails/railties/bin/process/spawner
+END
+inspector
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/jvintel/!svn/ver/1/vendor/rails/railties/bin/process/inspector
+END
+reaper
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/jvintel/!svn/ver/1/vendor/rails/railties/bin/process/reaper
+END

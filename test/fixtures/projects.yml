@@ -1,0 +1,38 @@
+# == Schema Information
+# Schema version: 20090106213449
+#
+# Table name: projects
+#
+#  id          :integer(4)      not null, primary key
+#  name        :string(255)
+#  description :string(255)
+#  life_id     :integer(4)
+#  state       :string(255)
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+website:
+  name: New Website
+  description: New Website for Freddy
+  lives: work
+  
+car:
+  name: Rebuild Car
+  description: Rebuild my sexy Chevvy
+  lives: home
+  
+cat:
+  name: Take Cat to vet
+  description: 
+  lives: home
+  
+dunfast:
+  name: DunFast
+  description: New top-secret project
+  lives: john_work, play
+  
+nuke:
+  name: Nuclear Bomb Console
+  description: Complete redesign of console
+  lives: play

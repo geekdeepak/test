@@ -1,0 +1,16 @@
+<% @page_header = "Messages" %>
+<h2>
+  <%= @message.subject %>
+</h2>
+<p>
+  From: <%= h(@message.sender) %>
+</p>
+<p>
+  Recieved: <%= h(@message.created_at.strftime("%H:%M %d/%m/%Y")) %>
+</p>
+<p>
+  <%= @message.body %>
+</p>
+<p>
+  <%= link_to "Back", messages_path %> | <%= delete_item_link("messages", @message) %>
+</p>

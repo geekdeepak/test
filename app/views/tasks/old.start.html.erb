@@ -1,0 +1,149 @@
+<script type="text/javascript">
+Event.observe(window, 'load', function() { 
+	timedCount();
+});
+
+var hh=<%=@used_hours%>,mm=<%=@used_minutes%>,ss=<%=@used_seconds%>;
+
+function timedCount()
+{
+dh = hh;
+dm = mm;
+ds = ss;
+
+if(hh<10)
+dh = "0" + hh;
+
+if(mm<10)
+dm = "0" + mm;
+
+if(ss<10)
+ds = "0" + ss ;
+
+document.getElementById('stop_watch').innerHTML= dh + " : " + dm +" : "+ ds;
+ss = ss+1;
+if(ss>59)
+{
+ mm++;
+ ss = 0;    
+}
+
+if(mm>59){
+  hh++; 
+  mm = 0;
+}
+
+setTimeout("timedCount()",1000);
+}
+
+</script>
+<div class="task_float">
+  <h2><%=h @task.name %> (<%=h profile_list(@task) %>)</h2>
+  <span class="description">
+    <%=h @task.description %>
+  </span>
+  <span id="stop_watch" class="time">
+  </span>
+  <span class="actions">
+    <%= link_to 'Pause', pause_task_path(@task), :method => :put %> |
+    <%= link_to 'Finish', complete_task_path(@task), :method => :put %> |
+    <%= link_to 'Reschedule', edit_task_path(@task) %>
+  </span>
+  <div class="applications">
+    <h3>Applications:</h3>
+    <ul>
+      <li><a href=''>One</a></li>
+      <li><a href=''>Two</a></li>
+      <li><a href=''>Sechs</a></li>
+      <li><a href=''>Ate</a></li>
+    </ul>
+  </div>
+  <div class="resources">
+    <h3>Resources:</h3>
+    <ul>
+      <li><a href=''>One</a></li>
+      <li><a href=''>Two</a></li>
+      <li><a href=''>Tree</a></li>
+      <li><a href=''>Furr</a></li>
+      <li><a href=''>Fife</a></li>
+    </ul>
+  </div>
+</div>
+
+<p>
+  Project: <%= @task.project.name %>
+</p>
+
+<p>
+  Duration: <%= @task.duration ? @task.duration : "0" %> minutes
+</p>
+
+<p>
+  Logged Time: <%=@task.logged_time || 0 %> minutes
+</p>
+
+<p>
+  Remaining Time: <%=(@task.duration - @task.logged_time) || 0%> minutes
+</p>
+
+<p>
+  State: <%=h @task.state %>
+  <small> | 
+    <% if @task.completed? %>
+      <%= link_to "Re-Open", :controller => 'tasks', :action => 'reopen', :id => @task %>
+    <% else %>
+      <%= link_to 'Complete', complete_task_path(@task), :method => :put %>
+    <% end %>
+  </small>
+</p>
+
+<p>
+  Task Logs: 
+	<table border="1">
+	  <tr><th>Start Time</th> 
+	  <th>End Time</th>
+	  <th>Logged Time </th>	
+	  </tr>
+	<%= render :partial => 'log', :collection => @task_logs %>
+	</table>
+
+</p>
+<p>
+  Assigned To:
+  <ul>
+    <% for life in @task.lives %>
+      <li><%= life.profile.name %><small> | <%= link_to('Reassign', edit_task_path(@task)) %></small></li>
+    <% end %>
+  </ul>
+</p>
+
+<%- if @task.due -%>
+  <p>
+    Due:
+    <%= distance_of_time_in_words_to_now @task.due %>
+    <%= 'ago' if @task.due < Time.now %>
+    <small> | <%= link_to 'Reschedule', edit_task_path(@task) %></small>
+  </p>
+<%- end -%>
+
+<% if @task.conflict? %>
+  <p>Conflicting Tasks:</p>
+  <ul>
+    <% for task in @task.conflicts %>
+      <li><%= link_to task.name, task %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<p>
+  <%= link_to 'Add to Calendar', formatted_task_path(@task, :ics) %><br />
+  <small>Supported by iCal, Outlook, and most major calendar apps.</small>
+</p>
+
+<p>
+  <%= link_to( 'Start', start_task_path(@task) ) + " |" if !@task.in_progress? && !@task.paused? %>
+  <%= link_to 'Edit', edit_task_path(@task) %> |
+  <%= link_to( 'Back', project_path(@project) ) if @project %>
+  <%= link_to( 'Back', life_path(@life) ) if @life && !@project %>
+</p>
+

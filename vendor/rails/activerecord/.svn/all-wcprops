@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/jvintel/!svn/ver/1/vendor/rails/activerecord
+END
+RUNNING_UNIT_TESTS
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/jvintel/!svn/ver/1/vendor/rails/activerecord/RUNNING_UNIT_TESTS
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/jvintel/!svn/ver/1/vendor/rails/activerecord/Rakefile
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/jvintel/!svn/ver/1/vendor/rails/activerecord/CHANGELOG
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/jvintel/!svn/ver/1/vendor/rails/activerecord/install.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/jvintel/!svn/ver/1/vendor/rails/activerecord/README
+END

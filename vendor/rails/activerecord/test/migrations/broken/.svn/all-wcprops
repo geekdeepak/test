@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/migrations/broken
+END
+100_migration_that_raises_exception.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jvintel/!svn/ver/1/vendor/rails/activerecord/test/migrations/broken/100_migration_that_raises_exception.rb
+END

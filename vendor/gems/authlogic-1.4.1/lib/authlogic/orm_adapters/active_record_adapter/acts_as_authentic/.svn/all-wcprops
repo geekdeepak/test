@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic
+END
+credentials.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/credentials.rb
+END
+single_access.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/single_access.rb
+END
+persistence.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/persistence.rb
+END
+config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/config.rb
+END
+session_maintenance.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/session_maintenance.rb
+END
+logged_in.rb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/logged_in.rb
+END
+perishability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/lib/authlogic/orm_adapters/active_record_adapter/acts_as_authentic/perishability.rb
+END

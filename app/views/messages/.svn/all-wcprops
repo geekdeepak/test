@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/jvintel/!svn/ver/1/app/views/messages
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/views/messages/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/jvintel/!svn/ver/1/app/views/messages/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/jvintel/!svn/ver/1/app/views/messages/show.html.erb
+END

@@ -1,0 +1,6 @@
+<% form_for(@profile) do |f| %>
+
+  <%= render :partial => 'fields', :locals => { :f => f } %>
+  
+  <p><%= submit_tag @profile.new_record? ? 'Create' : 'Update' %></p>
+<% end %>

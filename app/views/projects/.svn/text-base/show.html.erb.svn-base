@@ -1,0 +1,24 @@
+<h2>
+  <%=h @project.name %>
+  <small> |
+    <%= link_to 'Edit', edit_project_path(@project) %> | 
+    <%= delete_item_link("project", @project) %>
+  </small>
+</h2>
+
+<p><%=h @project.description %></p>
+
+<div class="task_head">
+  <span class="name">Action</span>
+  <span class="when">When</span>
+  <span class="duration">Duration</span>
+</div>
+
+<%= render :partial => 'tasks/task', :collection => @tasks %>
+
+<p>
+  <%= link_to( 'Add Goal', new_life_project_path(@life) )+ " |" if @life %>
+  <%= link_to( 'Add Step', new_project_task_path(@project) ) + " |" if @project %>
+  <%= link_to 'Add to Calendar', formatted_tasks_path(:ics) %><br />
+  <small>Supported by iCal, Outlook, and most major calendar apps.</small>
+</p>

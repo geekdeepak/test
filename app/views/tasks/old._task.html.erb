@@ -1,0 +1,36 @@
+<div class="task <%= "overdue" if task.overdue? %>">
+
+  <% if local_assigns[:task_counter] %>
+    <div class="number"><%= task_counter + 1 %></div>
+  <% end %>
+  
+  <span class="name_user">
+    <%= link_to(truncate(h(task.name), :length => 25, :omission =>"..."), task, :class => 'name') %>
+    (<%= profile_list(task)%>)
+  </span>
+  
+  <span class="when">
+    <% if task.conflict? %>
+      <%= link_to( 'Conflict', task ) %>
+    <% else %>
+      <%= task.due_date_time %>
+    <% end %>
+  </span>
+  
+  <span class="duration">
+    <%= task.duration || 0 %>min
+  </span>
+  
+  <% if task.completed? %>
+    <%= link_to "Re-Open", :controller => 'tasks', :action => 'reopen', :id => task %>
+  <% else %>
+    <ul class="actions">
+      <li><%= link_to image_tag("right_arrow.gif"), start_task_path(task) if !task.in_progress? && !task.paused? %></li>
+      <li><%= link_to image_tag("right_arrow.gif"), start_task_path(task) if task.paused? && task.users.include?(@current_user) %></li>
+      <li><%= link_to image_tag("pause.gif"), pause_task_path(task), :method => :put if task.in_progress? && task.users.include?(@current_user) %></li>
+      <li><%= link_to image_tag("pause.gif"), edit_task_path(task) if (task.paused? || task.in_progress?) && !task.users.include?(@current_user) %></li>
+      <li><%= link_to image_tag("up_arrow.gif"), move_task_higher_path(task) unless @tasks.first.position == task.position %></li>
+      <li><%= link_to image_tag("down_arrow.gif"), move_task_lower_path(task) unless @tasks.last.position == task.position %></li>
+    </ul>
+  <% end %>
+</div>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/jvintel/!svn/ver/1/app/views/notifier
+END
+password_reset_instructions.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/jvintel/!svn/ver/1/app/views/notifier/password_reset_instructions.erb
+END
+activation_confirmation.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/app/views/notifier/activation_confirmation.erb
+END
+contact_add_notification.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/jvintel/!svn/ver/1/app/views/notifier/contact_add_notification.erb
+END
+task_update_notification.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/jvintel/!svn/ver/1/app/views/notifier/task_update_notification.erb
+END
+new_message.erb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/jvintel/!svn/ver/1/app/views/notifier/new_message.erb
+END
+task_add_notification.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/jvintel/!svn/ver/1/app/views/notifier/task_add_notification.erb
+END
+contact_added_notification.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/jvintel/!svn/ver/1/app/views/notifier/contact_added_notification.erb
+END
+project_add_notification.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/jvintel/!svn/ver/1/app/views/notifier/project_add_notification.erb
+END
+activation_instructions.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/app/views/notifier/activation_instructions.erb
+END

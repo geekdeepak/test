@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/jvintel/!svn/ver/1/app/helpers
+END
+contacts_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/app/helpers/contacts_helper.rb
+END
+navigation_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/jvintel/!svn/ver/1/app/helpers/navigation_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/app/helpers/users_helper.rb
+END
+lives_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/app/helpers/lives_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/helpers/application_helper.rb
+END
+profiles_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/app/helpers/profiles_helper.rb
+END
+activations_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/jvintel/!svn/ver/1/app/helpers/activations_helper.rb
+END
+user_sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/jvintel/!svn/ver/1/app/helpers/user_sessions_helper.rb
+END
+tasks_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/jvintel/!svn/ver/1/app/helpers/tasks_helper.rb
+END
+messages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/app/helpers/messages_helper.rb
+END
+password_resets_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/jvintel/!svn/ver/1/app/helpers/password_resets_helper.rb
+END
+projects_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/jvintel/!svn/ver/1/app/helpers/projects_helper.rb
+END

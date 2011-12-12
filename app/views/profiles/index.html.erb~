@@ -1,0 +1,8 @@
+<% @page_header = @current_user.username + " - Profiles" %>
+<%- @lives.each do |life| -%>
+  <p>
+    <span class="life_name"><%= link_to life.name, life %></span>
+    -
+    <span class="profile_name"><%= link_to life.profile.name, life_profile_path(life) %></span>
+  </p>
+<%- end -%>

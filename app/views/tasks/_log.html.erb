@@ -1,0 +1,17 @@
+<tr>
+<td>
+	<%= log.start_time ? log.start_time.strftime("%d-%m-%Y %I:%M:%S %p") : "-"%>
+</td>
+<td>
+	<%= log.end_time ? log.end_time.strftime("%d-%m-%Y %I:%M:%S %p") : "-" %>
+</td>
+
+<td>
+	
+	<%= (log.logged_time or log.logged_time == 0) ? log.logged_time   : "less than 1 "%> minutes
+</td>
+<td>
+	<%= log.user_name %>
+</td>
+</tr>
+

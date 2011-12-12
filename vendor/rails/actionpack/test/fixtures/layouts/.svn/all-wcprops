@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts
+END
+talk_from_action.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/talk_from_action.erb
+END
+_column.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/_column.html.erb
+END
+standard.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/standard.erb
+END
+block_with_layout.erb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/block_with_layout.erb
+END
+builder.builder
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/builder.builder
+END
+partial_with_layout.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/partial_with_layout.erb
+END
+yield.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/jvintel/!svn/ver/1/vendor/rails/actionpack/test/fixtures/layouts/yield.erb
+END

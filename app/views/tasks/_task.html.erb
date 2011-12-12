@@ -1,0 +1,35 @@
+<li id="listItem_<%=task.id %>a<%=task.position%>">
+<div class="task <%= "overdue" if task.overdue? %> handle" >
+
+  <% if local_assigns[:task_counter] %>
+    <div class="number"><%= task_counter + 1 %></div>
+  <% end %>
+  
+  <span class="name_user" title="click to start the task">
+        <% if task.completed? %>  
+            <%= link_to(truncate(h(task.name), :length => 25, :omission =>"..."), :controller => 'tasks', :action => 'reopen', :id => task , :class => 'name') %>
+        <%elsif task.state == "in_progress" %>
+            <%= link_to(truncate(h(task.name), :length => 25, :omission =>"..."),pause_task_path(task), :method => :put, :class => 'name') %>
+        <%else%>
+            <%= link_to(truncate(h(task.name), :length => 25, :omission =>"..."), start_task_path(task), :class => 'name') %>
+        <%end%>
+        (<%= profile_list(task)%>)
+
+  </span>
+  
+  <span class="when">
+    <% if task.conflict? %>
+      <%= link_to('Conflict', task ) %>
+    <% else %>
+      <%= task.due_date_time%>
+    <% end %>
+  </span>
+  
+  <span class="duration">
+    <%= task.duration || 0 %>min
+  </span>
+
+  
+				
+</div>
+</li>

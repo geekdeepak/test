@@ -1,0 +1,17 @@
+<% @page_header = "Goals" %>
+<p>
+<div class="project_head">
+  <span class="name">Title</span>
+  <span class="next_task">Next Action</span>
+  <span class="tasks">Steps</span>
+  <span class="users">Users</span>
+  <span class="progress">Progress</span>
+</div>
+<%= render :partial => 'project', :collection => @projects %></p>
+
+<p>
+  <%- if @life -%>
+    <%= link_to( 'New Goal', new_life_project_path(@life) ) %> | 
+    <%= link_to( 'New Goal From Template', '' ) %>
+  <%- end -%>
+</p>

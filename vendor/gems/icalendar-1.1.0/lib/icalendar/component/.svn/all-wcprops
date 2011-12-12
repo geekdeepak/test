@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component
+END
+event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/event.rb
+END
+freebusy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/freebusy.rb
+END
+todo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/todo.rb
+END
+journal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/journal.rb
+END
+timezone.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/timezone.rb
+END
+alarm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/jvintel/!svn/ver/1/vendor/gems/icalendar-1.1.0/lib/icalendar/component/alarm.rb
+END

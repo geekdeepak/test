@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests
+END
+authenticates_many_association_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/authenticates_many_association_test.rb
+END
+params_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/params_test.rb
+END
+session_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/session_test.rb
+END
+active_record_trickery_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/active_record_trickery_test.rb
+END
+config_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/config_test.rb
+END
+timeout_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/timeout_test.rb
+END
+perishability_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/perishability_test.rb
+END
+base_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/base_test.rb
+END
+cookies_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/cookies_test.rb
+END
+scopes_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/jvintel/!svn/ver/1/vendor/gems/authlogic-1.4.1/test/session_tests/scopes_test.rb
+END
